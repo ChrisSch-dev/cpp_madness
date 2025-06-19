@@ -1,0 +1,3 @@
+add_executable(chat_app_tests test_main.cpp)
+target_link_libraries(chat_app_tests PRIVATE chat_core)
+add_test(NAME chat_app_tests COMMAND chat_app_tests)

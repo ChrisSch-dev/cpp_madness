@@ -1,0 +1,2 @@
+add_executable(snake_game_tests test_main.cpp)
+add_test(NAME snake_game_tests COMMAND snake_game_tests)

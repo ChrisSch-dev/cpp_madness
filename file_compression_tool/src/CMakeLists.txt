@@ -1,0 +1,1 @@
+add_library(compressor_core STATIC compress.cpp decompress.cpp main.cpp)

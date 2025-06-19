@@ -1,0 +1,1 @@
+add_library(ml_core STATIC regression.cpp kmeans.cpp main.cpp)

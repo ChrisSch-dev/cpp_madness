@@ -1,0 +1,3 @@
+add_executable(web_server_tests test_main.cpp)
+target_link_libraries(web_server_tests PRIVATE server_core)
+add_test(NAME web_server_tests COMMAND web_server_tests)
